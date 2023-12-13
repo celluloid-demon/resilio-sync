@@ -10,4 +10,5 @@
 
 ## Finished
 
+- added build container for rslsync --dump-sample-config
 - initial commit

@@ -8,4 +8,4 @@ RUN echo "deb http://linux-packages.resilio.com/resilio-sync/deb resilio-sync no
     apt update && \
     apt install -y resilio-sync
 
-CMD rslsync --dump-sample-config
+CMD rslsync --dump-sample-config > ./rslsync.conf
