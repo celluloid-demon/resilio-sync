@@ -1,0 +1,7 @@
+version: '3'
+services:
+  build-sample-config:
+    image: build-sample-config
+    build: .
+    volumes:
+      - ./build:/build
