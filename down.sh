@@ -4,6 +4,7 @@
 set -e
 
 # Declare constants
+RESOURCE_DIR="./resources"
 SETTINGS="./settings"
 
 # Initialize script
