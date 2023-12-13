@@ -1,0 +1,8 @@
+version: '3'
+services:
+  download-stream-main:
+    image: resilio-sync-main
+    build: ./local/resilio-sync-main
+    volumes:
+      - ${CONFIG_DIR}:/app/config
+      - ${RESILIO_SYNC_DIR}:/resilio-sync

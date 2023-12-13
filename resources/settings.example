@@ -1,0 +1,21 @@
+# Settings (syntax is shell script)
+
+# How to use:
+#   - Rename to 'settings' (w/o the '.example' extension)
+#   - Move to root of project folder
+
+# Note: `export` variables that docker compose requires.
+
+export CONFIG_DIR="./config"
+
+export RESILIO_SYNC_DIR="${HOME}/resilio-sync"
+
+CONTAINER_BASENAME_MAIN="resilio-sync-main"
+
+CRON_COMMAND="./up.sh"
+
+CRON_SCHEDULE="0 8 * * *"
+
+CRON_DESCRIPTION="Run script every day at 8:00 AM GMT (12:00 AM Pacific)"
+
+CRON_MARKER="f8401e9e3c1a41307992a6dbb83c99b9"
