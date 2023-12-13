@@ -17,9 +17,9 @@ main() {
 
 	fi
 
-	if [ -f "$CONFIG" ]; then
+	if [ ! -f "$CONFIG" ]; then
 
-		echo "$CONFIG not found (please create with `rslsync --dump-sample-config` and customize), terminating."
+		echo "$CONFIG not found (please create with 'rslsync --dump-sample-config' and customize), terminating."
 		exit 1
 
 	fi
