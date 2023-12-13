@@ -6,3 +6,5 @@ services:
     volumes:
       - ${CONFIG_DIR}:/app/config
       - ${RESILIO_SYNC_DIR}:/resilio-sync
+    ports:
+      - 8888:8888

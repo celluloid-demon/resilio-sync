@@ -10,4 +10,5 @@ RUN echo "deb http://linux-packages.resilio.com/resilio-sync/deb resilio-sync no
     chmod +x ./* && \
     mkdir -p /app/config && \
     mkdir -p /resilio-sync
+EXPOSE 8888
 CMD ./app.sh
