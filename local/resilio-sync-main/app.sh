@@ -27,6 +27,11 @@ main() {
 	# Start resilio sync process in configuration mode
 	rslsync --config "$CONFIG"
 
+	# Since rslsync gets forked in the background, we must sleep indefinitely to
+	# prevent the shell script process from terminating (and thus spinning down
+	# the container).
+	sleep infinity
+
 }
 
 main
