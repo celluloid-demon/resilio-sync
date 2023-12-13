@@ -5,6 +5,7 @@ services:
     build: ./local/resilio-sync-main
     volumes:
       - ${CONFIG_DIR}:/app/config
+      - ${SYNC_DIR}:/app/.sync
       - ${RESILIO_SYNC_DIR}:/resilio-sync
     ports:
       - 8888:8888

@@ -10,6 +10,8 @@ export CONFIG_DIR="./config"
 
 export RESILIO_SYNC_DIR="${HOME}/resilio-sync"
 
+export SYNC_DIR="./local/sync"
+
 CONTAINER_BASENAME_MAIN="resilio-sync-main"
 
 CRON_COMMAND="./up.sh"
