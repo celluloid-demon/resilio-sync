@@ -3,11 +3,6 @@
 # Exit on error
 set -e
 
-# Force working directory (useful for portability, running from cron, etc)
-SCPT_PATH="$(readlink -f "${BASH_SOURCE[0]}")"
-SCPT_DIR="$(dirname "$SCPT_PATH")"
-cd "$SCPT_DIR"
-
 # Declare vars
 CONFIG="./config/rslsync.conf"
 
