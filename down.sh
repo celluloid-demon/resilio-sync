@@ -12,7 +12,7 @@ init() {
 	# Create settings file if it doesn't already exist
 	if [ ! -e "$SETTINGS" ]; then
 
-		echo "\'$SETTINGS\' file not found, creating..."
+		echo "'$SETTINGS' file not found, creating..."
 
 		cp ${RESOURCE_DIR}/$(basename "$SETTINGS")* ./
 
