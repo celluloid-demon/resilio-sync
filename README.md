@@ -1,4 +1,4 @@
-# download-stream
+# resilio-sync
 
 A simple docker service for running resilio-sync.
 
