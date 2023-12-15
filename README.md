@@ -6,7 +6,7 @@ A simple docker service for running resilio-sync.
 
 1. Run `build.sh` from `./local/build-sample-config`.
 2. Move the sample config file `./local/build-sample-config/build/rslsync.conf` to `./config/` (make the directory if missing).
-3. Customize `./config/rslsync.conf` (change ownership from root to your personal username, uncomm).
+3. Customize `./config/rslsync.conf`.
     - change ownership from root to your personal username
 4. Run `up.sh`.
 
