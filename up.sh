@@ -3,7 +3,7 @@
 # Exit on error
 set -e
 
-# Set working directory (for running from cron)
+# Set working directory (useful when running as cron job / KDE autostart script )
 SCPT_PATH="$(readlink -f "${BASH_SOURCE[0]}")"
 SCPT_DIR="$(dirname "$SCPT_PATH")"
 cd "$SCPT_DIR"

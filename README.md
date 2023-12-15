@@ -13,3 +13,4 @@ A simple docker service for running resilio-sync.
 ## Optional
 
 - Run `./update-cron.sh` to automatically run on a schedule (edit cron settings in `./settings`).
+- If running on a personal linux machine with KDE, you can add `up.sh` as an autostart script.
