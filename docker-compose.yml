@@ -1,6 +1,6 @@
 version: '3'
 services:
-  download-stream-main:
+  resilio-sync:
     image: resilio-sync-main
     build: ./local/resilio-sync-main
     volumes:

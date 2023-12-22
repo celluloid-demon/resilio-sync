@@ -9,6 +9,7 @@ A simple docker service for running resilio-sync.
 2. Move the sample config file `./local/build-sample-config/build/rslsync.conf` to `./config/` (make the directory if missing - better, symlink "config" from project root to `"$HOME/Documents/Resilio Sync/Devices/<chosen device name from config>/config"`).
 3. Customize `./config/rslsync.conf`.
 4. Symlink `./local/sync` from project root to `"$HOME/Documents/Resilio Sync/Devices/<chosen device name from config>/sync"`
+4. Run `dump-settings.sh`, customize `docker-compose.yml` container service name AND port number (if running multiple instances of resilio-sync on one host) and `./settings`.
 5. Run `up.sh`.
 
 ## Optional
